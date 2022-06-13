@@ -11,7 +11,7 @@ body {
     height: 100%;
 }
 
-/* Header Styles */
+/* Header wrapper */
 .wrapper {
     display: flex;
     background-color: #1F2937;
@@ -102,4 +102,97 @@ button.sign-up {
     border-style: hidden;
     border-radius: 10px;
     font-size: 18px;
+}
+
+/* Information Wrapper */
+
+.wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.body-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 2rem 10rem;
+
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.boxes-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.boxes {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.text {
+    display: flex;
+    flex-flow: row wrap;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    color: #1F2937;
+    text-decoration: none;
+}
+
+/* Third Wrapper */
+
+.wrapper3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 3rem 10rem;
+}
+
+.quote p {
+    font-size: 36px;
+    text-align: left;
+    width: auto;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    width: auto;
+    margin-left: auto;
 }
